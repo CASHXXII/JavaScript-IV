@@ -84,7 +84,7 @@ const fred = new Instructor({
   });
 
 
-const nate = new Student({
+const jess = new Student({
     name: 'Jess',
     location: 'Minnesota',
     age: 20,
@@ -107,7 +107,7 @@ const ann = new ProjectManager({
 
 
 
-
+console.log(ann.standUp(25));
 
 
   console.log(fred.demo("science"));
@@ -116,4 +116,4 @@ const ann = new ProjectManager({
 
 
   //jason
-  // console.log(fred.grade(jason, "science"))
+  console.log(fred.grade(jess, "science"))
